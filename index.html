@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Product Card/Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card-wrapper">
+        <div class="card">
+            <!-- card left -->
+            <div class="product-imgs">
+                <div class="img-display">
+                    <div class="img-showcase">
+                        <img src="https://cdna.lystit.com/1040/1300/n/photos/footonfoot/0f949c2f/nike-Color-2-Air-Max-Interlock-Lite.jpeg" alt="Nike Air Max shoe front view">
+                        <img src="https://images-cdn.ubuy.co.in/65bb5bab1a908623561b7539-size-9-5-nike-air-max-interlock-lite.jpg" alt="Nike Air Max shoe side view">
+                        <img src="https://static.netshoes.com.br/produtos/tenis-nike-air-max-advantage-masculino/26/D12-8667-026/D12-8667-026_zoom4.jpg?ts=1664380161" alt="Nike Air Max shoe top view">
+                        <img src="https://media.globoshoes.com/v3/product/intrlk_l-jb/003-002-029/intrlk_l-jb_black_003-002-029_main_sq_wt_1200x1200.jpg" alt="Nike Air Max shoe bottom view">
+                    </div>
+                </div>
+                <div class="img-select">
+                    <div class="img-item">
+                        <a href="#" data-id="1">
+                            <img src="https://cdna.lystit.com/1040/1300/n/photos/footonfoot/0f949c2f/nike-Color-2-Air-Max-Interlock-Lite.jpeg" alt="Nike Air Max shoe front view thumbnail">
+                        </a>
+                    </div>
+                    <div class="img-item">
+                        <a href="#" data-id="2">
+                            <img src="https://images-cdn.ubuy.co.in/65bb5bab1a908623561b7539-size-9-5-nike-air-max-interlock-lite.jpg" alt="Nike Air Max shoe side view thumbnail">
+                        </a>
+                    </div>
+                    <div class="img-item">
+                        <a href="#" data-id="3">
+                            <img src="https://static.netshoes.com.br/produtos/tenis-nike-air-max-advantage-masculino/26/D12-8667-026/D12-8667-026_zoom4.jpg?ts=1664380161" alt="Nike Air Max shoe top view thumbnail">
+                        </a>
+                    </div>
+                    <div class="img-item">
+                        <a href="#" data-id="4">
+                            <img src="https://media.globoshoes.com/v3/product/intrlk_l-jb/003-002-029/intrlk_l-jb_black_003-002-029_main_sq_wt_1200x1200.jpg" alt="Nike Air Max shoe bottom view thumbnail">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- card right -->
+            <div class="product-content">
+                <h2 class="product-title">Nike Air Max Shoes</h2>
+                <a href="#" class="product-link">Visit Nike Store</a>
+                <div class="product-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>4.7 (21)</span>
+                </div>
+                <div class="product-price">
+                    <p class="last-price">Old Price: <span>₹2570.00</span></p>
+                    <p class="new-price">New Price: <span>₹2490.00 (5%)</span></p>
+                </div>
+                <div class="product-detail">
+                    <h2>About this item:</h2>
+                    <p>Nike Air Max is a line of shoes produced by Nike, Inc., with the first model released in 1987.  </p>
+                    <p>Air Max shoes are identified by their midsoles incorporating flexible urethane pouches filled with pressurized gas, visible from the exterior of the shoe and intended to provide cushioning to the underfoot.</p>
+                    <ul>
+                        <li>Color: <span>Black</span></li>
+                        <li>Available: <span>In stock</span></li>
+                        <li>Category: <span>Shoes</span></li>
+                        <li>Shipping Area: <span>All over the world</span></li>
+                        <li>Shipping Fee: <span>Free</span></li>
+                    </ul>
+                </div>
+                <div class="purchase-info">
+                    <input type="number" min="0" value="1" id="quantity">
+                    <button type="button" class="btn add-to-cart">
+                        Add to Cart <i class="fas fa-shopping-cart"></i>
+                    </button>
+                    <button type="button" class="btn view-cart">View Cart</button>
+                </div>
+                <div class="social-links">
+                    <p>Share At:</p>
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                        <img src="https://cdn-icons-png.flaticon.com/256/20/20673.png" alt="Facebook icon">
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                        <img src="https://cdn.pixabay.com/photo/2023/09/02/17/51/x-8229321_1280.png" alt="Twitter icon">
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/CIS-A2K_Instagram_Icon_%28Black%29.svg/1200px-CIS-A2K_Instagram_Icon_%28Black%29.svg.png" alt="Instagram icon">
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-whatsapp"></i>
+                        <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-1/1024/whatsapp-512.png" alt="WhatsApp icon">
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-pinterest"></i>
+                        <img src="https://www.logologo.com/freelogos/Circular-Pinterest-icon-black.png" alt="Pinterest icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cart-modal" class="cart-modal">
+        <div class="cart-content">
+            <span class="close">&times;</span>
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items">
+                <!-- Cart items will be injected here -->
+            </ul>
+            <p id="cart-total">Total: ₹0.00</p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
